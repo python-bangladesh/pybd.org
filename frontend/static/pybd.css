@@ -1,0 +1,116 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.pybd-navbar {
+	background-color: #2b5b84;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.pybd-topics {
+	padding-top: 24px;
+}
+
+.topics {
+  border: 0 none;
+  border-radius: 0;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  height: 345px;
+  overflow: hidden;
+  padding: 10px 0 0;
+  position: relative;
+  text-align: left;
+}
+
+.latest-blog {
+    border: 0 none;
+    border-radius: 0;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+    min-height: 345px;
+    overflow: hidden;
+    padding: 10px 0 0;
+    position: relative;
+    text-align: left;
+}
+
+.latest-blog-left {
+    float: left; max-width: 140px; padding-right: 10px;
+}
+
+.thumbnail {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: block;
+  line-height: 1.42857;
+  margin-bottom: 20px;
+  padding: 4px;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.project-showcase {
+  border-bottom: 5px solid #ffd343;
+  margin-bottom: 10px;
+}
+
+.topics-title {
+	height: 50px;
+	padding: 10px;
+}
+
+.topics-title-left {
+	float: left;
+}
+
+.topics-title-right {
+	float: right;
+}
+
+.topics-content {
+	border-top: 1px solid #ffd343;
+	padding-top: 10px;
+}
+
+.qa-left {
+    float: left;
+    max-width: 95px;
+    padding-right: 10px;
+}
+
+.qa-left img {
+    height: 50px;
+    width: 50px;
+}
+
+.podcast-left {
+    float: left;
+    max-width: 95px;
+    padding-right: 10px;
+}
+
+.podcast-left img {
+    height: 50px;
+    width: 60px;
+}
+
+.free-resource-left {
+    float: left;
+    max-width: 95px;
+    padding-right: 10px;
+}
+
+.free-resource-left img {
+    height: 70px;
+    width: 100px;
+}
